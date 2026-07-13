@@ -1,0 +1,90 @@
+:root{ 
+
+    /*  Colores */
+    --colour-dark-blue-1-up : #000013;
+    --colour-dark-blue-2-mid: #000233;
+    --colour-dark-blue-3-below: #00001F;
+    --colour-white: #fff;
+    --colour-black: #000;
+
+    /* parrafo */
+    --font-family-p: Georgia, 'Times New Roman', Times, serif;
+    --font-size-p: 1.6rem;
+    --font-color-p: #d8d8d8;
+
+}  
+
+
+html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    width: 240px;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+
+}
+
+h1{
+    text-align: center;
+    width: 100%;
+    font-size: 1.8rem;
+    padding: 0;
+    margin: 0;
+}
+
+.parrafo{
+    text-align: center;
+    font-size: 1.4rem;
+    padding: 0;
+    margin: 4px 0px 10px 0px;
+}
+
+.bloqueContraseña{
+    background-color: #e0e0e07e;
+    border-radius: 20px;
+    border: var(--colour-dark-blue-2-mid) solid 1px;
+    width: auto;
+    padding: 0 10px;
+}
+
+
+.contraseña{
+    font-family: var(--font-family-p);
+    font-size: var(--font-size-p) ;
+    color: var(--colour-black);
+    text-align: center;
+    width: auto;
+    margin: 0px;
+    word-break: break-all;
+}
+
+
+button{
+    background-color:var(--colour-dark-blue-2-mid);
+    border-radius: 20px;
+    border: solid var(--colour-dark-blue-2-mid) 1px;
+    color: var(--colour-white);
+    padding: 5px;
+    margin-top: 10px;
+}
+
+button:hover{
+    background-color: #ffffffee;
+    color: var(--colour-dark-blue-2-mid);
+    transition: 0.5s;
+    
+}
+
+
+button:active{
+    background-color: var(--colour-dark-blue-2-mid);
+    border: solid var(--colour-dark-blue-2-mid) 1px;
+    color: var(--colour-white);
+    transition: 0.01s;
+    
+}
